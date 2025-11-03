@@ -2,6 +2,9 @@
 include('db.php');
 session_start();
 
+#kashish golani
+
+
 if (!isset($_SESSION['user'])) {
     header("Location: index.php");
     exit();
@@ -23,7 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <title>Add Book</title>
-    <link rel="stylesheet" href="style.css">
+    <h2> kashu please add book </h2>
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="form-box">
